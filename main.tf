@@ -4,8 +4,8 @@ variable "aws_region" { default = "eu-west-1"}
 # aws auth
 provider "aws" {
     region     = "${var.aws_region}"
-    access_key = "AKIASOO3MDFASBG467NQ"
-    secret_key = "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"
+    access_key = ""
+    secret_key = ""
 }
 
 # extract last Aws ubuntu Amazon image (Ami)
